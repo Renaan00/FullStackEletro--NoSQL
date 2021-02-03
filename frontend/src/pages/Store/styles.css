@@ -1,0 +1,15 @@
+main {
+    height: auto;
+}
+#info {
+    height: 50vh;
+}
+#info h1 {
+    font-size: 1.75rem;
+}
+#info div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}

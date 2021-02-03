@@ -1,0 +1,45 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+main .container-products {
+    width: 96.8vw;
+    display: flex;
+    justify-content: flex-end;
+}
+main .section-list {
+    width: 20vw;
+    cursor: pointer; 
+}
+main .section-list #section-prod {
+    width: 100%;
+}
+main .container-products .section-products {
+    width: 80%;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
+main .container-products .section-products .box-card {
+    padding: 20px;
+}
+main .container-products .section-products .box-card .card {
+    width: 18rem;
+    transition: all ease 0.2s;
+}
+main .container-products .section-products .box-card .card:hover {
+    box-shadow: 10px 10px 40px rgb(104, 104, 104);
+    background-color: rgb(110, 110, 110);
+    color: white;
+}
+footer {
+    height: 30vh;
+    padding: 50px;
+}
+li:hover {
+    background-color: rgb(214, 214, 214);
+}
+
+
+
