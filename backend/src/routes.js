@@ -1,11 +1,11 @@
 const { Router } = require('express');
 
 const ProductsController = require('./controllers/ProductsController');
-const RequestsController = require('./controllers/RequestsController');
+const PostRequestsController = require('./controllers/PostRequestsController');
 
 const routes = new Router;
 
 routes.get("/products", ProductsController.indexAction);
-routes.post("/products", RequestsController.requestAction);
+routes.post("/request", PostRequestsController.indexAction);
 
 module.exports = routes;

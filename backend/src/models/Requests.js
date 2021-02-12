@@ -1,22 +1,27 @@
-const connection = require('../config/connection');
+const mongoose = require('mongoose');
+const Schema = mongoose.Schema;
 
-class Requests {
-
-    requestProductAction(req, res) {
-        const { nome, produto, quantidade, endereco, telefone, id } = req.body;
-        if (nome !== "" && produto !== "" && quantidade !== "" && endereco !== "" && telefone !== "" && id !== "") {
-            connection.query(`INSERT INTO pedido_cliente (nome, nome_produto, quantidade, endereco, telefone, id_pedido) values ('${nome}', '${produto}', '${quantidade}', '${endereco}', '${telefone}', '${id}')`, (error, result) => {
-                if (error) {
-                    res.json(250);
-                } else {
-                    res.json(100);
-                }
-            })
-        } else {
-            res.json(200)
-        }
+const Requests = new Schema({
+    nome: {
+        type: String,
+        require: true
+    },
+    endereco: {
+        type: String,
+        require: true
+    }, 
+    telefone: {
+        type: String,
+        require: true
+    },
+    produto: {
+        type: String,
+        require: true
+    },
+    quantidade: {
+        type: Number,
+        require: true
     }
-}
+});
 
-module.exports = new Requests;
-
+mongoose.model('pedidos', Requests);

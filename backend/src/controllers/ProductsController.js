@@ -1,8 +1,8 @@
-const products = require('../models/Products');
+const getProducts = require('../models/GetProducts');
 
 class ProductsController {
     indexAction(req, res) {
-        products.getAll(req, res);
+        getProducts.getAll(req, res);
     }
 }
 

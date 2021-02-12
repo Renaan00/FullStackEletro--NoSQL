@@ -7,7 +7,6 @@ import Titles from '../../objects/Titles';
 import SubTitles from '../../objects/SubTitles';
 
 const DataForm = ({ match }) => {
-    const id = match.params.id;
     const desc = match.params.desc;
     const [form, setForm] = useState({
         nome: "",
@@ -15,7 +14,6 @@ const DataForm = ({ match }) => {
         telefone: "",
         produto: desc,
         quantidade: "",
-        id: id
     })
 
     const registerControl = (event) => {
@@ -28,9 +26,9 @@ const DataForm = ({ match }) => {
     const handleSubmit = async (event) => {
         event.preventDefault();
 
-        await Api.post('/products', form)
+        await Api.post('/request', form)
         .then((response) => {
-            if (response.data === 100) {
+            if (response.status === 200) {
                 setForm("");
                 document.getElementById("nome").value = "";
                 document.getElementById("endereco").value = "";
@@ -75,7 +73,6 @@ const DataForm = ({ match }) => {
                                 <SubTitles>Quantidade:</SubTitles>
                                 <input type="number"onChange={registerControl} id="quant" min="0" className="form-control" name="quantidade" />
                             </div>
-                            <input type="hidden" name="id" value={id} />
                         </div>
                         <center>
                             <button className="btn btn-primary" style={{width:300}}>Comprar</button>

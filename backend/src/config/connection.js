@@ -1,10 +1,13 @@
-const mysql = require('mysql');
+const mongoose = require('mongoose')
 
-const connection = mysql.createConnection({
-    host: "localhost",
-    user: "root",
-    password:"",
-    database: "fseletro"
-});
+function connection() {
+    mongoose
+    .connect('mongodb://localhost/fs_eletro', {useNewUrlParser: true, useUnifiedTopology: true})
+        .then(() => {
+            console.log("Conectado com o Banco")
+        }).catch((error) => {
+            console.log(`Erro ao tentar a conexão ${error}`)
+        })
+}
 
-module.exports = connection;
+module.exports = connection();

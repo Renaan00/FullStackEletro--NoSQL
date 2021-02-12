@@ -84,7 +84,7 @@ const Products = () => {
                                         <SubTitles>{description}</SubTitles>
                                         <Titles>R${element.preco}</Titles>
                                         <hr />
-                                        <Link to={() => `/Pedido/${element.idproduto}/${element.descricao}`} className="btn btn-primary" style={{width:245}}>Comprar</Link>
+                                        <Link to={() => `/Pedido/${element._id}/${element.descricao}`} className="btn btn-primary" style={{width:245}}>Comprar</Link>
                                     </div>
                                 </div>
                             </div>

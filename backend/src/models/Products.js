@@ -1,23 +1,23 @@
-const connection = require('../config/connection')
+const mongoose = require('mongoose');
+const Schema = mongoose.Schema;
 
-class Products {
-    constructor() {
-        this.id;
-        this.nome;
-        this.descricao;
-        this.preco;
-        this.imagem;
+const Products = new Schema({
+    nome_produto: {
+        type: String,
+        require: true
+    },
+    descricao: {
+        type: String,
+        require: true
+    }, 
+    preco: {
+        type: Number,
+        require: true
+    },
+    imagem: {
+        type: String,
+        require: true
     }
+});
 
-    getAll(req, res) {
-        connection.query("SELECT * FROM produtos", (error, result) => {
-            if (error) {
-                res.send(error);
-            } else {
-                res.json(result);
-            }
-        });
-    }
-}
-
-module.exports = new Products;
+mongoose.model('produtos', Products);
