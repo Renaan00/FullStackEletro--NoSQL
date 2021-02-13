@@ -1,0 +1,51 @@
+[{
+  "_id": {
+    "$oid": "6026a83d90eb4013c8122cc8"
+  },
+  "nome": "Renan",
+  "endereco": "Rua da Pedra 75",
+  "telefone": "9933221",
+  "produto": "Lavadora de Roupas Philco Inverter 12KG",
+  "quantidade": 2,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6026a91990eb4013c8122cc9"
+  },
+  "nome": "Mario",
+  "endereco": "Rua Europa",
+  "telefone": "911111111",
+  "produto": "Geladeira Frost Free Brastemp Branca 375 litros",
+  "quantidade": 2,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6026a98190eb4013c8122cca"
+  },
+  "nome": "Carla",
+  "endereco": "Rua dos Ratos",
+  "telefone": "93224123",
+  "produto": "Geladeira Frost Free Brastemp Branca 375 litros",
+  "quantidade": 2,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6026a9c290eb4013c8122ccb"
+  },
+  "nome": "Jessica",
+  "endereco": "Rua do Grilo",
+  "telefone": "9324323456",
+  "produto": "Geladeira Frost Free Brastemp Branca 375 litros",
+  "quantidade": 1,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6026aa2190eb4013c8122ccc"
+  },
+  "nome": "Bruno ",
+  "endereco": "Rua da Agulha",
+  "telefone": "90002222",
+  "produto": "Forno de Microondas Electrolux 20L Branco",
+  "quantidade": 6,
+  "__v": 0
+}]

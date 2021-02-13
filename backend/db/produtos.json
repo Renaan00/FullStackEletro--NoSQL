@@ -1,0 +1,98 @@
+[{
+  "_id": {
+    "$oid": "602619d2cb08792d902ba270"
+  },
+  "nome_produto": "geladeira",
+  "descricao": "Geladeira Frost Free Brastemp Side Inverse 540 litros",
+  "preco": 5019,
+  "imagem": "geladeira_brastemp.jpeg"
+},{
+  "_id": {
+    "$oid": "602619d2cb08792d902ba271"
+  },
+  "nome_produto": "geladeira",
+  "descricao": "Geladeira Frost Free Brastemp Branca 375 litros",
+  "preco": 1910.9,
+  "imagem": "brastemp_branca.jpeg"
+},{
+  "_id": {
+    "$oid": "602619d2cb08792d902ba272"
+  },
+  "nome_produto": "geladeira",
+  "descricao": "Geladeira Frost Free Consul Prata 340 litros",
+  "preco": 2069,
+  "imagem": "geladeira_consul.png"
+},{
+  "_id": {
+    "$oid": "602619d2cb08792d902ba273"
+  },
+  "nome_produto": "fogao",
+  "descricao": "Fogão 4 Bocas Consul Inox com Mesa de Vidro",
+  "preco": 1129,
+  "imagem": "fogao_consul.jpeg"
+},{
+  "_id": {
+    "$oid": "602619d2cb08792d902ba274"
+  },
+  "nome_produto": "fogao",
+  "descricao": "Fogão de Piso 4 Bocas Atlas Monaco com Acendimento Automático",
+  "preco": 519.7,
+  "imagem": "fogao_monaco.jpeg"
+},{
+  "_id": {
+    "$oid": "602619d2cb08792d902ba275"
+  },
+  "nome_produto": "micro-ondas",
+  "descricao": "Micro-ondas Consul 32 Litros Inox 220V",
+  "preco": 409.88,
+  "imagem": "micro_consul.jpg"
+},{
+  "_id": {
+    "$oid": "602619d2cb08792d902ba276"
+  },
+  "nome_produto": "micro-ondas",
+  "descricao": "Microondas 25L Espelhado Philco 220V",
+  "preco": 464.53,
+  "imagem": "micro_philco.jpeg"
+},{
+  "_id": {
+    "$oid": "602619d2cb08792d902ba277"
+  },
+  "nome_produto": "micro-ondas",
+  "descricao": "Forno de Microondas Electrolux 20L Branco",
+  "preco": 436.05,
+  "imagem": "micro_eletroc.jpeg"
+},{
+  "_id": {
+    "$oid": "602619d2cb08792d902ba278"
+  },
+  "nome_produto": "lava-louça",
+  "descricao": "Lava-Louça Electrolux Inox com 10 Serviços. 06 Programasde Lavagem e Papel Blue Touch",
+  "preco": 2799.9,
+  "imagem": "louca_electro.jpeg"
+},{
+  "_id": {
+    "$oid": "602619d2cb08792d902ba279"
+  },
+  "nome_produto": "lava-louça",
+  "descricao": "Lava Louça 8 Serviços Branca 127V Brastemp",
+  "preco": 1730.61,
+  "imagem": "louca_compacta.jpeg"
+},{
+  "_id": {
+    "$oid": "602619d2cb08792d902ba27a"
+  },
+  "nome_produto": "lavadora de roupas",
+  "descricao": "Lavadora de Roupas Brastemp 11 Kg com Turbo Performace Branca",
+  "preco": 1214.1,
+  "imagem": "lavadora_brastemp.jpeg"
+},{
+  "_id": {
+    "$oid": "602629bd5ce8c4249c5cb880"
+  },
+  "nome_produto": "lavadora de roupas",
+  "descricao": "Lavadora de Roupas Philco Inverter 12KG",
+  "preco": 2179.9,
+  "imagem": "lavadora_philco.jpeg",
+  "__v": 0
+}]
